@@ -124,7 +124,10 @@ details[open] > summary > span::after { transform: none; }
 .footer-links { display: flex; flex-wrap: wrap; gap: 0 22px; }
 .footer-links a, .footer-bottom a { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; }
 .site-footer a:hover { color: white; text-decoration: underline; }
-.footer-bottom { padding-block: 6px; border-top: 1px solid #384b5c; }
+.footer-bottom { padding-block: 10px; border-top: 1px solid #384b5c; }
+.footer-credit { display: grid; gap: 1px; }
+.footer-credit > span:last-child { color: #aebdca; font-size: .75rem; }
+.footer-credit a { color: inherit; }
 
 [data-reveal].reveal-pending { opacity: 0; transform: translateY(18px); transition: opacity .55s ease, transform .55s ease; }
 [data-reveal].reveal-pending.is-visible, [data-reveal].reveal-pending:focus-within { opacity: 1; transform: none; }
